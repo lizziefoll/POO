@@ -4,8 +4,7 @@
 * Disciplina: Programação Orientada a Objetos 
 * Professor: Nelson Bellincanta
 * Aluna: Elisabeth Folador Ferreira 
-* 3°INF 
-*/
+* 3°INF */
 
     public class AtvTeste { //declaração da classe 
         //declaraçãp do método main   
