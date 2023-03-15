@@ -7,12 +7,11 @@
 * 3°INF 
 */
 
-
-public class AtvTeste { //declaração da classe 
-    //declaraçãp do método main   
-     public static void main(String[] args){
-        //impressão da imagem     
-        System.out.println("\ "Olá Professor " \ ");
+    public class AtvTeste { //declaração da classe 
+        //declaraçãp do método main   
+         public static void main(String[] args){
+            //impressão da imagem     
+            System.out.println("\ "Olá Professor " \ ");
         
-     }//fim do método main 
- }//fim da classe AtvTeste
+        }//fim do método main 
+    }//fim da classe AtvTeste
