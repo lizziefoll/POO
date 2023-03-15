@@ -7,7 +7,7 @@
 * 3°INF */
 
 
-public class HelloWorld { /*declaração da classe
+public class HelloWorld { /*declaração da classe*/
     /*declaração do método main*/
     
     public static void main(String[] args){
