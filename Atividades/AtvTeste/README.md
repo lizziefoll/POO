@@ -6,8 +6,9 @@
 * Aluna: Elisabeth Folador Ferreira 
 * 3°INF 
 
- public class AtvTeste { //declaração da classe 
- 
+
+
+public class AtvTeste { //declaração da classe 
     //declaraçãp do método main   
     public static void main(String[] args){
     
