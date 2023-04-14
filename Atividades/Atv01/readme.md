@@ -1,11 +1,12 @@
-/*
-Aluna: Elisabeth Folador Ferreira
+# Atividade 01
+* Aluna: Elisabeth Folador Ferreira
 Turma: 3° Info 
 Data: 13/04
 Proposta: Crie uma classe em Java que seja capaz de apresentar a soma
 de todos os argumentos inteiros ou reais recebidos. Argumentos inválidos
 devem ser desconsiderados sem provocar a exibição de erros ou exceções.
-*/
+
+```
 
 import java.util.Scanner;
 public class Atvd01 {
