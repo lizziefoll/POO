@@ -8,24 +8,19 @@ b) Atribuir o produto de variáveis b e c para a variável a;
 c) Utilizar um comentário para afirmar que um programa executa um cálculo de exemplo de folha de pagamento.
 
 ```
-
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 public class Atv02 {//inicio da classe Atv02
-    public static void main(String[] args) {//inicio do método main 
-        String x;  //declaração da variavel de leitura dos dados digitados
-        float nota1, nota2, trab;  //declaração das variaveis que vao ser lidas
+    public static void main(String[] args) {//inicio do método main
+        int  A, B, C; //declaração das variáveis A, B e C como inteiro
 
-        x = JOptionPane.showInputDialog("Nota da prova 1: "); //entrada da nota 1
-        nota1 = Float.parseFloat(x); //conversao dos dados para float
-        x = JOptionPane.showInputDialog("Nota da prova 2: "); //entrada da nota 2
-        nota2 = Float.parseFloat(x); //conversao dos dados para float
-        x = JOptionPane.showInputDialog("Nota da prova 1: "); //entrada da nota do trabalho
-        trab = Float.parseFloat(x); //conversao dos dados para float
-
-        float media = (nota1 + nota2 + trab)/ 3; //calculo da média
-        JOptionPane.showMessageDialog(null, "Média = " + media); //resposta da média 
-
-
+        Scanner leitor = new Scanner(System.in);// declaração da variavel que armazena a entrada de dados
+        System.out.print("Informe um inteiro: ");////mensagem de comando 
+        int B= leitor.nextInt();//variavel onde a resposta do comando deve ser armazenada
+        leitor.close();  //fecha a variavel de armazenamento de dados
+        double C = 3.3; //declaração da variável C como double
+        
+        double A = B * C; //produto de B e C armazenados na variável A como double
+        
+        System.out.print("O produto de A por B: "+B+" e por C: "+C+" é igual a: "+A);//mostra na tela o resultado 
     } //fim do método main
-}//fim da classe Atv02    
+}//fim da classe Atv02 
