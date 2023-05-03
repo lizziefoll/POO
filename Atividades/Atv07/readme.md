@@ -13,7 +13,7 @@ public class Atv07 {//inicio da classe Atv02
     public static void main(String[] args) {//inicio do método main 
         String x;  //declaração da variavel de leitura dos dados digitados
         float nota1, nota2, nota3, nota4, nota5;  //declaração das variaveis que vao ser lidas
-        float [] arrayNotas = new float[5]; 
+        float [] arrayNotas = new float[5]; //cria o array que armazena as notas
 
         x = JOptionPane.showInputDialog("Nota da prova 1: "); //entrada da nota 1
         nota1 = Float.parseFloat(x); //conversao dos dados para float
@@ -25,7 +25,7 @@ public class Atv07 {//inicio da classe Atv02
         nota4 = Float.parseFloat(x); //conversao dos dados para float
         x = JOptionPane.showInputDialog("Nota da prova 5: "); //entrada da nota do trabalho
         nota5 = Float.parseFloat(x); //conversao dos dados para float
-        float arrayNotas = {nota1, nota2, nota3, nota4, nota5};
+        float arrayNotas = {nota1, nota2, nota3, nota4, nota5}; //adiciona ao array as notas registradas
         
 
         arrayNotas.sort(); // aqui ele vai ordernar do menor para o maior
