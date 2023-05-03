@@ -1,10 +1,11 @@
-/*
-Aluna: Elisabeth Folador Ferreira
-Turma: 3° Info 
-Proposta: Elabore uma classe que receba 5 notas de alunos por meio de showInputDialog, 
+# Atividade 07
+* Aluna: Elisabeth Folador Ferreira
+* Turma: 3° Info 
+* Proposta: Elabore uma classe que receba 5 notas de alunos por meio de showInputDialog, 
 armazene essas notas em um array de cinco elementos, apresente em tela as cinco notas 
 em ordem decrescente (da maior para a menor) e a média aritmética das notas.
-*/
+
+```
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
