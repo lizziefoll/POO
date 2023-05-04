@@ -31,7 +31,7 @@ public class Atv07 {//inicio da classe Atv02
         arrayNotas.reverse(); // aqui ele vai inverter as posições fazendo o efeito desejado
 
         double media = ((nota1 + nota2 + nota3 + nota4 + nota5)/5); //calcula a media das notas
-
+        //parte da caixa de entrada ta funcionando
 
         JOptionPane.showMessageDialog(null, "Média: " + media); //resposta da média 
 
