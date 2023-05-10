@@ -10,30 +10,37 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class Atv07 {//inicio da classe Atv02
     public static void main(String[] args) {//inicio do método main 
+        Float media = 0f; //variavel da media 
         String x;  //declaração da variavel de leitura dos dados digitados
         float nota1, nota2, nota3, nota4, nota5;  //declaração das variaveis que vao ser lidas
-        float [] arrayNotas = new float[5]; 
+        int [] arrayNotas = new int[5]; //array que armazena as notas
+        String ordem = ""; //string para fazer a exibição das notas em decrescente
 
-        x = JOptionPane.showInputDialog("Nota da prova 1: "); //entrada da nota 1
-        nota1 = Float.parseFloat(x); //conversao dos dados para float
-        x = JOptionPane.showInputDialog("Nota da prova 2: "); //entrada da nota 2
-        nota2 = Float.parseFloat(x); //conversao dos dados para float
-        x = JOptionPane.showInputDialog("Nota da prova 3: "); //entrada da nota do trabalho
-        nota3 = Float.parseFloat(x); //conversao dos dados para float
-        x = JOptionPane.showInputDialog("Nota da prova 4: "); //entrada da nota do trabalho
-        nota4 = Float.parseFloat(x); //conversao dos dados para float
-        x = JOptionPane.showInputDialog("Nota da prova 5: "); //entrada da nota do trabalho
-        nota5 = Float.parseFloat(x); //conversao dos dados para float
-        float arrayNotas = {nota1, nota2, nota3, nota4, nota5};
-        
 
-        arrayNotas.sort(); // aqui ele vai ordernar do menor para o maior
-        arrayNotas.reverse(); // aqui ele vai inverter as posições fazendo o efeito desejado
+        for (int i = 0; i < 5; i++){ //inicio do for que vai repitir a mensagem para apresentar as notas 5 vezes
+            x = JOptionPane.showInputDialog("Nota da prova "+(i+1)": "); //entrada das notas
+            arrayNotas[i] = Integer.parseInt(x); //conversão das notas para float e adionando-as em uma lista
+            media += arrayNotas[i]; //calcula a media das notas e adiciona elas no array
+    
+        }//fim do for 
+            
+        for(int i = 1;  i < notas.length; i++){//inicio do for para mostrar em decrescente
+            for (int j = 0; j < i; j++) {  
+                if (notas[i] > notas[j]){
+                    int dsc = notas[i];
+                    notas[i] = notas[j];
+                    notas[j] = dsc;
+                }//fim do if 
+            } //fim do segundo for
+        } //fim fo primeiro for
 
-        double media = ((nota1 + nota2 + nota3 + nota4 + nota5)/5); //calcula a media das notas
-        //parte da caixa de entrada ta funcionando
+        for (int num : notas) { //inicio do for 
+            ordem += num + "; ";   //adiciona a string as notas
+        } // fim do loop for
 
-        JOptionPane.showMessageDialog(null, "Média: " + media); //resposta da média 
+
+        JOptionPane.showMessageDialog(null, "Notas = " + notas_ordem); //mostra as notas em ordem decrescente
+        JOptionPane.showMessageDialog(null, "Média: " + media/5); //resposta da média 
 
 
     } //fim do método main
