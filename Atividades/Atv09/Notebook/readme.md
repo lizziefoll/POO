@@ -13,7 +13,7 @@ Utilize estruturas de repetição e operações matemáticas para calcular a som
 
 //inicio do método imprimirNumeros
 public int imprimirNumeros(int[] imprimir_array = new int[10]){ //inicializando os parametros do método
-    System.out.println(imprimir_array; ) //retorna o array 
+    System.out.println(imprimir_array); //retorna o array 
 } //fim do método imprimirNumeros
 
 
