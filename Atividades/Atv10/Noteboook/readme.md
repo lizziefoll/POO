@@ -1,4 +1,4 @@
-# Atividade 01
+# Atividade 10
 * Aluna: Elisabeth Folador Ferreira
 * Turma: 3° Info 
 * Proposta:  Crie uma classe chamada "Pessoa" com os seguintes atributos privados: 
@@ -40,3 +40,20 @@ private class Pessoa { //inicio da classe Pessoa
     }//fim da classe setAltura
 
 }//fim da classe Pessoa
+
+
+* Teste.java
+```
+public class Teste{ //inicio da classe Teste
+    public static void main(String[] args) { //inicio do método main
+        Pessoa pessoa = new Pessoa(); //cria uma nova instancia para a classe
+        
+        pessoa.setNome("Elisabeth"); //atribui valor a variavel nome
+        pessoa.setIdade(17); //atribui valor a variavel idade
+        pessoa.setAltura(1.60); //atribui valor a variavel altura
+        
+        System.out.println("Nome: " + pessoa.getNome()); //print do nome chamando a classe getNome
+        System.out.println("Idade: " + pessoa.getIdade()); //print da idade chamando a classe getIdade
+        System.out.println("Altura: " + pessoa.getAltura()); //print da altura chamando a classe getAltura
+    }//fim do metodo main
+}//fim da classe Teste
